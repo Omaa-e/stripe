@@ -1,17 +1,21 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import StripeLogo from '../assets/stripe Image.png'
+import Hero from '../components/Hero'
+// import StripeLogo from '../assets/wave__1_.webp'
+
 
 const LandingPage = () => {
   return (
     <div>
-        <section className='relative overflow-hidden'>
-            <div className='absolute inset-0 -z-10'>
-                <img src={StripeLogo} alt="" className='w-full object-cover' />
-            </div>
+        <div className='relative h-screen overflow-hidden'>
+           
+                {/* <img src={StripeLogo} alt="" className='absolute h-full w-full object-cover' />
+
+                <div className='absolute w-[700px] h-[700px] bg-gradient-to-br from pink-500 to-purple-600 rounded-[40%] blur-[100px] animate-[float_10s_ease-in-out_infinite]'></div> */}
             <Nav/>
+            <Hero/>
             
-        </section>
+        </div>
     </div>
   )
 }
