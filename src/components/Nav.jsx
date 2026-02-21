@@ -13,12 +13,12 @@ const Nav = () => {
   // Close menu after clicking any link
   const handleClose = () => setExpanded(false);
   return (
-    <div className='w-full '>
-        <div className='flex justify-between items-center border-b border-gray-200'>
-            <div className="flex">
-                <div className="flex">
+    <div className='w-full'>
+        <div className='flex  justify-between items-center border-b border-gray-200'>
+            <div className="flex xl:px-[9%]">
+                <div className="flex ">
                 {/* logo */}
-                <a href="/" className="pt-7 px">
+                <a href="/" className="pt-7">
                     <img src={stripe} alt="stripe logo" className='w-19 hover:text-                     [#AEB3B8]' />
                 </a>
                 {/* Large screens */}

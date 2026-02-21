@@ -7,22 +7,20 @@ import { motion, AnimatePresence } from "framer-motion";
 const Hero = () => {
     const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full md:border-x-1 md:border-gray-200  '>
-        <div className='grid  items-center lg:mx-auto lg:justify-center'>
-            {/* this div contains the main contents of the page, where all the texts are being written */}
-            <div className='px-4 py-18 lg:px-auto'>
+    <div className='w-full xl:px-[9%] transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
+        <div className=' sm:border-x sm:border-gray-200 lg:mx-auto'>
+            <div className='px-4 py-18 lg:px-auto '>
                  <h3 className='text-xs font-semibold text-[#061B31]'>Global GDP running on Stripe:<></></h3>
-                <h1 className='text-[2.0rem] lg: leading-tight py-11'>Finishing infrastructure to grow your revenue.
+                <h1 className='text-[2.0rem] leading-tight py-11 w-[89%] md:w-[70%]'>Finishing infrastructure to grow your revenue.
                     <span className='text-[#40668D] hidden sm:inline'>Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.</span>
                     </h1>
-{/* this div contains the buttons and frame motion is used here to enable the smooth transition in the get started button */}
-                <div className='flex space-x-2'>
-                     
 
+                <div className='flex space-x-2'>
+                     {/* Buttons */}
                     <motion.button 
                     onHoverStart={() => setHovered(true)}
                     onHoverEnd={() => setHovered(false)}
-                    className=' flex items-center gap-2 px-6 pt-3 pb-3.5 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Get started
+                    className=' flex items-center gap-2 px-5 py-2 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Get started
                     <AnimatePresence mode='wait'>
                         {hovered ? (
                             <motion.span
@@ -47,7 +45,6 @@ const Hero = () => {
                         )}
                     </AnimatePresence>
                     </motion.button>
-                    {/* Sign up google tag with the icon */}
                         
                     <a href="" className='border border-[#B9B9F9] text-[#573FFD] hover:border-[#6462AA] hover:text-[#4032C8] px-5 py-4 text-center rounded-md font-semibold'><FcGoogle className="inline mr-2" />Sign up with Google</a>
                 </div>
