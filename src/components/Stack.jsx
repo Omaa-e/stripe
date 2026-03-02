@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-// import Ticker from "framer-motion-ticker";
+import React, {useRef, useState } from "react";
+import Ticker from "framer-motion-ticker";
 import { motion, useInView } from "framer-motion";
 
 // Tech stack images
@@ -51,11 +51,11 @@ const Stack = () => {
     <div>
          {/* Tech Stack */}
         <div
-          className="w-full overflow-hidden"
+          className="w-full overflow-hidden border-y border-gray-200"
           onMouseEnter={() => setTickerPlaying(false)}
           onMouseLeave={() => setTickerPlaying(true)}
         >
-          <Ticker duration={20} isPlaying={tickerPlaying}>
+          <Ticker duration={100} isPlaying={tickerPlaying}>
             {Stack.map((stack, index) => (
                 <a 
                 key={index}
@@ -69,7 +69,7 @@ const Stack = () => {
                 <img
                   src={stack.image}
                   alt={stack.name}
-                  className="w-16 h-12 object-contain"
+                  className="w-16 h-16 object-contain"
                 />
                 
               </motion.div>

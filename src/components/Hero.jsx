@@ -7,8 +7,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const Hero = () => {
     const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[3%] transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
-        <div className=' sm:border-x sm:border-gray-200 lg:mx-auto'>
+    <div className='w-full xl:px-[9%] transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
+        <div className='sm:border-x sm:border-gray-200 lg:mx-auto'>
             <div className='px-4 py-18 lg:px-auto '>
                  <h3 className='text-xs font-semibold text-[#061B31] lg:px-[8%] '>Global GDP running on Stripe:<></></h3>
                 <h1 className='text-[34px] md:text-[40px] lg:text-[43.86px] leading-none my-11 w-[95%] sm:w-full md:w-[100%] lg:w-[86%] xl:[70%] lg:px-[8%]'>Finishing infrastructure to grow your revenue.
