@@ -51,7 +51,7 @@ const Stack = () => {
     <div>
          {/* Tech Stack */}
         <div
-          className="w-full overflow-hidden border-y border-gray-200"
+          className="w-full overflow-hidden border border-gray-200"
           onMouseEnter={() => setTickerPlaying(false)}
           onMouseLeave={() => setTickerPlaying(true)}
         >
@@ -69,7 +69,7 @@ const Stack = () => {
                 <img
                   src={stack.image}
                   alt={stack.name}
-                  className="w-16 h-16 object-contain"
+                  className="w-15 object-contain"
                 />
                 
               </motion.div>
