@@ -8,7 +8,7 @@ import Stack from '../components/Stack'
 const LandingPage = () => {
   return (
     <div className=''>
-        <div className='relative h-screen overflow-hidden '>
+        <div className='relative overflow-hidden '>
            
             {/* <img src={StripeLogo} alt="" className='absolute h-full w-full object-cover' />
 

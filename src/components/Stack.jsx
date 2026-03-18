@@ -51,7 +51,7 @@ const Stack = () => {
     <div>
          {/* Tech Stack */}
         <div
-          className="w-full overflow-hidden border border-gray-200"
+          className="w-full overflow-hidden border-b border-gray-200"
           onMouseEnter={() => setTickerPlaying(false)}
           onMouseLeave={() => setTickerPlaying(true)}
         >
