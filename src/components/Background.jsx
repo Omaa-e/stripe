@@ -3,8 +3,8 @@ import bgimg from '../assets/stripeBg.webp'
 
 const Background = () => {
   return (
-    <div className='w-full h-140  xl:px-[9%] transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
-        <div className='sm:border sm:border-gray-300 px-3'>
+    <div className='w-full h-140 transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
+        <div className=''>
             <div className='py-13 lg:py-18'>
             <img src={bgimg} className='h-100 object-cover rounded-lg ' alt="" />
         </div>

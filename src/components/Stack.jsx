@@ -48,10 +48,10 @@ const Stack = () => {
     { image: Cursor, url: "https://cursor.com" },
   ];
   return (
-    <div>
+    <div className="w-full border-b border-gray-200">
          {/* Tech Stack */}
         <div
-          className="w-full overflow-hidden border-b border-gray-200"
+          className=""
           onMouseEnter={() => setTickerPlaying(false)}
           onMouseLeave={() => setTickerPlaying(true)}
         >

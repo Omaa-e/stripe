@@ -1,26 +1,33 @@
-import React, { useState } from 'react'
-import { FcGoogle } from "react-icons/fc"
+import {React,useState} from 'react'
 import { BiSolidChevronRight } from "react-icons/bi";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Hero = () => {
-    const [hovered, setHovered] = useState(false);
+const Power = () => {
+  const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full  transition-all duration-600 ease-in-out flex flex-col items-center lg:justify-center sm:px-4'>
-        <div className=' lg:mx-auto'>
-            <div className='px-4 py-18 lg:px-auto '>
-                 <h3 className='text-xs font-semibold text-[#061B31] lg:px-[8%] '>Global GDP running on Stripe:<></></h3>
-                <h1 className='text-[34px] md:text-[40px] lg:text-[43.86px] leading-none my-11 w-[95%] sm:w-full md:w-[100%] lg:w-[86%] xl:[70%] lg:px-[8%]'>Finishing infrastructure to grow your revenue.
-                    <span className='text-[#40668D] hidden sm:inline'>Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.</span>
-                    </h1>
+    <div className='sm:border-x sm:border-gray-200 sm:px-4'>
+        <div className=''>
+            <div className=' border-b border-gray-200 py-10'>
+                <h1 className='text-2xl lg:text-3xl lg:w-[70%] '>Powering businesses of all sizes.
+                    <span className='text-[#687790]'>Run your business on a reliable platform that adapts to your needs</span>
+                </h1>
+            </div>
 
-                <div className='flex space-x-2 lg:px-[8%]'>
-                     {/* Buttons */}
+            <div className='py-15'>
+                <div className='px-2 lg:flex flex-row lg:justify-between'>
+                <h2 className='text-2xl w-90 tracking-tighter'>
+                    Transform your enterprise with agile fragile infrastructure
+                </h2>
+                <p className='text-[#586880] text-xl tracking-tighter w-125'>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
+            </div>
+
+    <div className='flex space-x-2'>
+                        {/* Buttons */}
                     <motion.button 
                     onHoverStart={() => setHovered(true)}
                     onHoverEnd={() => setHovered(false)}
-                    className=' flex items-center gap-2 px-5 py-2 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Get started
+                    className=' flex items-center gap-2 px-5 py-2 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for enterprises
                     <AnimatePresence mode='wait'>
                         {hovered ? (
                             <motion.span
@@ -46,13 +53,12 @@ const Hero = () => {
                     </AnimatePresence>
                     </motion.button>
                         
-                    <a href="" className='border border-[#B9B9F9] text-[#573FFD] hover:border-[#6462AA] hover:text-[#4032C8] px-5 py-4 text-center rounded-md font-semibold'><FcGoogle className="inline mr-2" />Sign up with Google</a>
                 </div>
-            </div>
-           
         </div>
+            </div>
+            
     </div>
   )
 }
 
-export default Hero
+export default Power

@@ -14,7 +14,7 @@ const Nav = () => {
   const handleClose = () => setExpanded(false);
   return (
     <div className='w-full'>
-        <div className='flex  justify-between items-center border-b border-gray-200'>
+        <div className='flex  justify-between items-center border-b border-gray-200 sm:px-2'>
             <div className="flex xl:px-[9%]">
                 <div className="flex ">
                 {/* logo */}
