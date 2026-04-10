@@ -22,7 +22,7 @@ const Power = () => {
                 <p className='text-[#586880] text-xl tracking-tighter w-125'>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
             </div>
 
-    <div className='flex space-x-2'>
+    <div className='justify-center flex md:justify-items-start'>
                         {/* Buttons */}
                     <motion.button 
                     onHoverStart={() => setHovered(true)}
