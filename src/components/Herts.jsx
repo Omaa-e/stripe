@@ -9,6 +9,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Herts = () => {
   const [hovered, setHovered] = useState(false);
+
+//   const realize = [
+//     {
+//         p: "",
+//         button: "view services"
+//     },
+//   ]
   return (
 
     <div className='sm:border-x sm:border-gray-200 sm:px-4'>
@@ -96,9 +103,10 @@ const Herts = () => {
 
         {/* realize div */}
         <div>
-            <h1>Realize value faster with dedicated experts</h1>
+            <h1 className='pb-7 text-3xl'>Realize value faster with dedicated experts</h1>
 
-           <div className='flex flex-col md:flex-row-2 md:gap-10 md:pr-20 '>
+          <div>
+             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:pr-10 md:gap-10  '>
                 <div>
                         <p>Professional services. <span className='text-[#50617A]'>Get tailored guidance from Stripe on implementation, complex integration, or major migration</span></p>
 
@@ -107,7 +115,7 @@ const Herts = () => {
                         <motion.button 
                         onHoverStart={() => setHovered(true)}
                         onHoverEnd={() => setHovered(false)}
-                        className=' flex items-center gap-2 py-2 text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>View services
+                        className=' flex items-center gap-1 py-2 text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>View services
                         <AnimatePresence mode='wait'>
                             {hovered ? (
                                 <motion.span
@@ -213,6 +221,7 @@ const Herts = () => {
                 </div>
 
            </div>
+          </div>
         </div>
     </div>
   )

@@ -7,6 +7,7 @@ import Background from '../components/Background'
 import Backbone from '../components/Backbone'
 import Power from '../components/Power'
 import Herts from '../components/Herts'
+import Build from '../components/Build'
 // import StripeLogo from '../assets/wave__1_.webp'
 
 
@@ -26,6 +27,7 @@ const LandingPage = () => {
             <Backbone/>
             <Power/>
             <Herts/>
+            <Build/>
             
         </div>
     </div>
