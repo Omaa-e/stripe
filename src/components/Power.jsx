@@ -27,7 +27,7 @@ const Power = () => {
                     <motion.button 
                     onHoverStart={() => setHovered(true)}
                     onHoverEnd={() => setHovered(false)}
-                    className=' w-full sm:w-auto flex items-center justify-center whitespace-nowrap gap-1 px-5 py-3 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for enterprises
+                    className=' w-full sm:w-auto flex items-center justify-center whitespace-nowrap px-5 py-3 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for enterprises
                     <AnimatePresence mode='wait'>
                         {hovered ? (
                             <motion.span
@@ -37,7 +37,7 @@ const Power = () => {
                         exit={{ opacity: 0, x: 10 }}
                         transition={{ duration: 0 }}
                         >
-                            <BiRightArrowAlt className='w-4 h-4' />
+                            <BiRightArrowAlt className='w-4 h-8' />
                         </motion.span>
                         ) : (
                             <motion.span
@@ -47,7 +47,7 @@ const Power = () => {
                         exit={{ opacity: 0, x: -10 }}
                         transition={{ duration: 0 }}
                         >
-                            <BiSolidChevronRight className='w-4 h-4' />
+                            <BiSolidChevronRight className='w-4 h-8' />
                         </motion.span>
                         )}
                     </AnimatePresence>

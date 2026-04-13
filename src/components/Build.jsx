@@ -23,7 +23,7 @@ const Build = () => {
                     <motion.button 
                     onHoverStart={() => setHoveredIndex(0)}
                     onHoverEnd={() => setHoveredIndex(null)}
-                    className='w-full sm:w-auto flex items-center justify-center whitespace-nowrap gap-1 px-5 py-3 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for startups
+                    className='w-full sm:w-auto flex items-center justify-center whitespace-nowrap px-5 py-3 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for startups
                     <AnimatePresence mode='wait'>
                         {hoveredIndex === 0 ? (
                             <motion.span 
@@ -34,7 +34,7 @@ const Build = () => {
                         exit={{ opacity: 0, x: 10 }}
                         transition={{ duration: 0 }}
                         >
-                            <BiRightArrowAlt className='w-4 h-4' />
+                            <BiRightArrowAlt className='w-4 h-7' />
                         </motion.span>
                         ) : (
                             <motion.span
@@ -45,7 +45,7 @@ const Build = () => {
                         exit={{ opacity: 0, x: -10 }}
                         transition={{ duration: 0 }}
                         >
-                            <BiSolidChevronRight className='w-4 h-4' />
+                            <BiSolidChevronRight className='w-4 h-7' />
                         </motion.span>
                         )}
                     </AnimatePresence>
@@ -98,8 +98,11 @@ const Build = () => {
                 </div>
              </div>
             </div>
-           
-            <div>
+
+
+{/* Stripe Startups program */}
+            <div className=''>
+                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-2 rounded-md'>
                 <div>
                     <h2> Stripe Startups program.
                         <span className='text-[#586880]'>Access financial benefits, a focused community, and experts resources to help you grow your business.</span></h2>
@@ -107,38 +110,41 @@ const Build = () => {
 
 
                  <div className=''>
-                                            {/* Buttons */}
-                                        <motion.button 
-                                        onHoverStart={() => setHoveredIndex(2)}
-                                        onHoverEnd={() => setHoveredIndex(null)}
-                                        className=' w-full sm:w-auto flex  py-3 text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>Apply now
-                                        <AnimatePresence mode='wait'>
-                                            {hoveredIndex === 2 ? (
-                                                <motion.span
-                                            key="icon2"
-                                            initial={{ opacity: 0, x: -10 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            exit={{ opacity: 0, x: 10 }}
-                                            transition={{ duration: 0 }}
-                                            >
-                                                <BiRightArrowAlt className='w-4 h-7' />
-                                            </motion.span>
-                                            ) : (
-                                                <motion.span
-                                            key= "icon1"
-                                            initial={{ opacity: 0, x: 10 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            exit={{ opacity: 0, x: -10 }}
-                                            transition={{ duration: 0 }}
-                                            >
-                                                <BiSolidChevronRight className='w-4 h-7' />
-                                            </motion.span>
-                                            )}
-                                        </AnimatePresence>
-                                        </motion.button>
-                                            
-                                    </div>
+                        {/* Buttons */}
+                    <motion.button 
+                    onHoverStart={() => setHoveredIndex(2)}
+                    onHoverEnd={() => setHoveredIndex(null)}
+                    className=' w-full sm:w-auto flex text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>Apply now
+                    <AnimatePresence mode='wait'>
+                        {hoveredIndex === 2 ? (
+                            <motion.span
+                        key="icon2"
+                        initial={{ opacity: 0, x: -10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: 10 }}
+                        transition={{ duration: 0 }}
+                        >
+                            <BiRightArrowAlt className='w-4 h-7' />
+                        </motion.span>
+                        ) : (
+                            <motion.span
+                        key= "icon1"
+                        initial={{ opacity: 0, x: 10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: -10 }}
+                        transition={{ duration: 0 }}
+                        >
+                            <BiSolidChevronRight className='w-4 h-7' />
+                        </motion.span>
+                        )}
+                    </AnimatePresence>
+                    </motion.button>
+                        
+                </div>
             </div>
+            </div>
+           
+           
         </div>
     </div>
   )
