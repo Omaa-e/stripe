@@ -15,19 +15,19 @@ const Power = () => {
             </div>
 
             <div className='py-15'>
-                <div className='px-2 lg:flex flex-row lg:justify-between'>
+                <div className='px-2 md:flex flex-row md:justify-between'>
                 <h2 className='text-2xl w-90 tracking-tighter'>
                     Transform your enterprise with agile fragile infrastructure
                 </h2>
                 <p className='text-[#586880] text-xl tracking-tighter w-125'>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
             </div>
 
-    <div className='justify-center flex md:justify-items-start'>
+    <div className=''>
                         {/* Buttons */}
                     <motion.button 
                     onHoverStart={() => setHovered(true)}
                     onHoverEnd={() => setHovered(false)}
-                    className=' flex items-center gap-2 px-5 py-2 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for enterprises
+                    className=' w-full sm:w-auto flex items-center justify-center whitespace-nowrap gap-1 px-5 py-3 bg-[#533AFD] font-semibold hover:bg-[#4032C8] text-white rounded'>Stripe for enterprises
                     <AnimatePresence mode='wait'>
                         {hovered ? (
                             <motion.span

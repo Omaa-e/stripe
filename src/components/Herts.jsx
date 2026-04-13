@@ -18,7 +18,7 @@ const Herts = () => {
 //   ]
   return (
 
-    <div className='sm:border-x sm:border-gray-200 sm:px-4'>
+    <div className='sm:border-x sm:border-gray-200 sm:px-4 border-b border-[#E5EDF5]'>
         <div>
             <div className='justify-between'>
                 <div>
@@ -108,7 +108,7 @@ const Herts = () => {
           <div>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:pr-10 md:gap-10  '>
                 <div>
-                        <p>Professional services. <span className='text-[#50617A]'>Get tailored guidance from Stripe on implementation, complex integration, or major migration</span></p>
+                        <p className=''>Professional services. <span className='text-[#50617A]'>Get tailored guidance from Stripe on implementation, complex integration, or major migration</span></p>
 
                     <div className=' flex'>
                             {/* Buttons */}
