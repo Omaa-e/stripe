@@ -20,13 +20,13 @@ const LandingPage = () => {
 
             <div className='absolute w-[700px] h-[700px] bg-gradient-to-br from pink-500 to-purple-600 rounded-[40%] blur-[100px] animate-[float_10s_ease-in-out_infinite]'></div> */}
             
-            <Hero/>
-            <Stack/>
-            <Flexible/>
-            <Background/>
-            <Backbone/>
-            <Power/>
-            <Herts/>
+          
+            {/* <Stack/> */}
+            {/* <Flexible/> */}
+            {/* <Background/> */}
+            {/* <Backbone/> */}
+            {/* <Power/> */}
+            {/* <Herts/> */}
             <Build/>
             
         </div>

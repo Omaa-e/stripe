@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const Power = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <div className='sm:border-x sm:border-gray-200 sm:px-4'>
-        <div className=''>
+    <div className='w-full xl:px-[9%] '>
+        <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className=' border-b border-gray-200 py-10'>
                 <h1 className='text-2xl lg:text-3xl lg:w-[70%] '>Powering businesses of all sizes.
                     <span className='text-[#687790]'>Run your business on a reliable platform that adapts to your needs</span>
@@ -15,7 +15,7 @@ const Power = () => {
             </div>
 
             <div className='py-15'>
-                <div className='px-2 md:flex flex-row md:justify-between'>
+                <div className=' md:flex flex-row md:justify-between'>
                 <h2 className='text-2xl w-90 tracking-tighter'>
                     Transform your enterprise with agile fragile infrastructure
                 </h2>

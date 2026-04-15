@@ -5,12 +5,21 @@ import Background from './components/Background'
 import Backbone from './components/Backbone'
 import Power from './components/Power'
 import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Stack from './components/Stack'
 
 const App = () => {
   return (
-    <div className='w-full sm:border sm:border-gray-200'>
+    <div className=''>
       <div className=''>
         <Nav/>
+        <Hero/>
+        <Stack/>
+        <Flexible/>
+        <Background/>
+        <Backbone/>
+        <Power/>
+        
          <LandingPage/>
       
       </div>

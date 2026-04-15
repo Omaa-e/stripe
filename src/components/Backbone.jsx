@@ -3,8 +3,8 @@ import backImg from '../assets/backGlobe.png'
 
 const Backbone = () => {
   return (
-    <div className='bg-gradient-to-b from-[#141E4B] via-[#242171] to-[#5A53D0] sm:border-x sm:border-gray-200'>
-        <div className='xl:px-[9%]'>
+    <div className='bg-gradient-to-b from-[#141E4B] via-[#242171] to-[#5A53D0] '>
+        <div className='xl:px-[9%] px-4 sm:border-x sm:border-gray-200'>
             <div>
               <h1 className='mx-auto text-center text-4xl text-white py-16 '>The backbone of global commerce</h1>
             </div>

@@ -18,8 +18,8 @@ const Herts = () => {
 //   ]
   return (
 
-    <div className='sm:border-x sm:border-gray-200 sm:px-4 border-b border-[#E5EDF5]'>
-        <div>
+    <div className=' border-b border-[#E5EDF5] w-full xl:px-[9%] px-4'>
+        <div className="sm:border-x sm:border-gray-200">
             <div className='justify-between'>
                 <div>
                     <img src="" alt="" />
