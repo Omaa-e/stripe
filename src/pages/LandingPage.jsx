@@ -27,7 +27,7 @@ const LandingPage = () => {
             {/* <Backbone/> */}
             {/* <Power/> */}
             {/* <Herts/> */}
-            <Build/>
+            {/* <Build/> */}
             
         </div>
     </div>

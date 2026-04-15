@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from "framer-motion";
 const Saas = () => {
     const [hovered, setHovered]= useState(false)
   return (
-    <div className='sm:border-x sm:border-gray-200 sm:px-4'>
-        <div>
+    <div className='w-full xl:px-[9%] sm:px-4'>
+        <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className='py-15'>
-                <div className='px-2 md:flex flex-row md:justify-between'>
+                <div className=' md:flex flex-row md:justify-between'>
                 <h2 className='text-2xl w-90 tracking-tighter'>
                     Make your Saas platform a complete financial operating system 
                 </h2>

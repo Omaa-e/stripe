@@ -18,8 +18,8 @@ const Herts = () => {
 //   ]
   return (
 
-    <div className=' border-b border-[#E5EDF5] w-full xl:px-[9%] px-4'>
-        <div className="sm:border-x sm:border-gray-200">
+    <div className='  w-full xl:px-[9%] sm:px-4'>
+        <div className="sm:border-x sm:border-gray-200 px-4 ">
             <div className='justify-between'>
                 <div>
                     <img src="" alt="" />
@@ -102,7 +102,7 @@ const Herts = () => {
         </div>
 
         {/* realize div */}
-        <div>
+        <div className='sm:border-x sm:border-gray-200 px-4 border-b border-gray-200'>
             <h1 className='pb-7 text-3xl'>Realize value faster with dedicated experts</h1>
 
           <div>

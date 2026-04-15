@@ -7,6 +7,9 @@ import Power from './components/Power'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Stack from './components/Stack'
+import Herts from './components/Herts'
+import Build from './components/Build'
+import Saas from './components/Saas'
 
 const App = () => {
   return (
@@ -19,8 +22,10 @@ const App = () => {
         <Background/>
         <Backbone/>
         <Power/>
+        <Herts/>
+        <Build/>
+        <Saas/>
         
-         <LandingPage/>
       
       </div>
      
