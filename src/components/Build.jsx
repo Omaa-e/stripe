@@ -15,7 +15,7 @@ const Build = () => {
         <div className='sm:border-x sm:border-gray-200 px-4 py-10 border-b border-gray-200'>
             <div className=' md:flex flex-row md:justify-between'>
                 <h3 className='text-[20px] text-[#061B31] '>Build a foundation for your startup that enables faster growth</h3>
-            <p className='text-[16px] text-[#50617A] pb-5 pt-2 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
+            <p className=' text-[#50617A] pb-5 pt-2 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
             </div>
 
              <div className=''>

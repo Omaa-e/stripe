@@ -2,6 +2,7 @@ import {React,useState} from 'react'
 import { BiSolidChevronRight } from "react-icons/bi";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
+import img from "../assets/Saas.png"
 
 const Saas = () => {
     const [hovered, setHovered]= useState(false)
@@ -47,6 +48,10 @@ const Saas = () => {
                 </motion.button>
                     
                 </div>
+            </div>
+            {/* image */}
+            <div>
+                <img className='w-full' src={img} alt="" />
             </div>
         </div>
     </div>
