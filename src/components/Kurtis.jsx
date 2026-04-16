@@ -1,7 +1,11 @@
-import React from 'react'
+import {React,useState} from 'react'
+import { BiSolidChevronRight } from "react-icons/bi";
+import { BiRightArrowAlt } from "react-icons/bi";
+import { motion, AnimatePresence } from "framer-motion";
 import img1 from '../assets/Kurtis.webp'
 
 const Kurtis = () => {
+    const [hovered, setHovered] = useState(false);
   return (
     <div className='w-full xl:px-[9%] sm:px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4'>
@@ -14,11 +18,11 @@ const Kurtis = () => {
                  <div className=''>
                                             {/* Buttons */}
                                         <motion.button 
-                                        onHoverStart={() => setHoveredIndex(1)}
-                                        onHoverEnd={() => setHoveredIndex(null)}
+                                        onHoverStart={() => setHovered(1)}
+                                        onHoverEnd={() => setHovered(null)}
                                         className=' w-full sm:w-auto flex gap-1  py-3 text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>Read the story
                                         <AnimatePresence mode='wait'>
-                                            {hoveredIndex === 1 ? (
+                                            {hovered === 1 ? (
                                                 <motion.span
                                             key="icon2"
                                             initial={{ opacity: 0, x: -10 }}
