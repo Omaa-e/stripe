@@ -10,6 +10,7 @@ import Stack from './components/Stack'
 import Herts from './components/Herts'
 import Build from './components/Build'
 import Saas from './components/Saas'
+import Kurtis from './components/Kurtis'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Herts/>
         <Build/>
         <Saas/>
+        <Kurtis/>
         
       
       </div>
