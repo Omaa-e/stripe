@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <div className='w-full'>
         <div className='flex  justify-between items-center border-b border-gray-200 sm:px-2'>
-            <div className="flex xl:px-[9%]">
+            <div className="flex xl:px-[5%]">
                 <div className="flex ">
                 {/* logo */}
                 <a href="/" className="pt-7">

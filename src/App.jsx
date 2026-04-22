@@ -11,6 +11,9 @@ import Herts from './components/Herts'
 import Build from './components/Build'
 import Saas from './components/Saas'
 import Kurtis from './components/Kurtis'
+import Reliable from './components/Reliable'
+import Happening from './components/Happening'
+import Book from './components/Book'
 
 const App = () => {
   return (
@@ -27,7 +30,9 @@ const App = () => {
         <Build/>
         <Saas/>
         <Kurtis/>
-        
+        <Reliable/>
+        <Happening/>
+        <Book/>
       
       </div>
      

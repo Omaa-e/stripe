@@ -18,7 +18,7 @@ const Herts = () => {
 //   ]
   return (
 
-    <div className='  w-full xl:px-[9%] sm:px-4'>
+    <div className='  w-full xl:px-[5%] sm:px-4'>
         <div className="sm:border-x sm:border-gray-200 px-4 ">
             <div className='justify-between'>
                 <div>

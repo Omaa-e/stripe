@@ -48,7 +48,7 @@ const Stack = () => {
     { image: Cursor, url: "https://cursor.com" },
   ];
   return (
-    <div className="w-full sm:px-4 xl:px-[9%] border-b border-gray-200 sm:border-x sm:border-gray-200">
+    <div className="w-full sm:px-4 xl:px-[5%] border-b border-gray-200 sm:border-x sm:border-gray-200">
       <div className="">
         {/* Tech Stack */}
         <div

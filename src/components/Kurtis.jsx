@@ -42,11 +42,11 @@ const Kurtis = () => {
 
     const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[9%] sm:px-4'>
+    <div className='w-full xl:px-[5%] sm:px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4 '>
             <div className='text-center flex flex-col items-center justify-center py-21'>
                 <img className='mb-4' src={img1} alt="" />
-                <h1 className='text-2xl text-center text-[#64748D] space-y-5 mx-7 md:mx-24 xl:mx-30 mx-auto text-[17px] md:text-md'>"With Stripe, we have a global technology partner to help our customers—from Canadian yoga studios to British boxing classes—keep growing and evolving in a new wellness world."</h1>
+                <h1 className='text-2xl text-center text-[#64748D] space-y-5 px-7 md:mx-24 xl:mx-30 mx-auto text-[17px] md:text-md'>"With Stripe, we have a global technology partner to help our customers—from Canadian yoga studios to British boxing classes—keep growing and evolving in a new wellness world."</h1>
                 <p className='mt-6 mb-3 font-semibold'>Kurtis Moyer, <span className='text-[#64748D]'>Lead Product Manager of Payments Minbody</span>
                 </p>
 
@@ -86,7 +86,7 @@ const Kurtis = () => {
 
 
             {/* company logos */}
-            <div className="flex flex-wrap justify-center gap-3 mt-8">
+            {/* <div className="flex flex-wrap justify-center gap-3 mt-8">
           {testimonials.map((item) => (
             <button
               key={item.id}
@@ -100,7 +100,7 @@ const Kurtis = () => {
               {item.company}
             </button>
           ))}
-        </div>
+        </div> */}
         </div>
     </div>
   )

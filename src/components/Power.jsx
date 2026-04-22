@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Power = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[9%] sm:px-4 '>
+    <div className='w-full xl:px-[5%] sm:px-4 '>
         <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className=' border-b border-gray-200 py-10'>
                 <h1 className='text-2xl lg:text-3xl lg:w-[70%] '>Powering businesses of all sizes.
@@ -19,7 +19,7 @@ const Power = () => {
                 <h2 className='text-2xl w-90 tracking-tighter'>
                     Transform your enterprise with agile fragile infrastructure
                 </h2>
-                <p className='text-[#586880] text-xl tracking-tighter '>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
+                <p className='text-[#586880] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter xl:w-125  '>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
             </div>
 
     <div className=''>

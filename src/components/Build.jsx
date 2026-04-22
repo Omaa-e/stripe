@@ -11,11 +11,13 @@ const Build = () => {
         {},
      ]
   return (
-    <div className=' w-full xl:px-[9%] sm:px-4 '>
+    <div className=' w-full xl:px-[5%] sm:px-4 '>
         <div className='sm:border-x sm:border-gray-200 px-4 py-10 border-b border-gray-200'>
-            <div className=' md:flex flex-row md:justify-between'>
-                <h3 className='text-[20px] text-[#061B31] '>Build a foundation for your startup that enables faster growth</h3>
-            <p className=' text-[#50617A] pb-5 pt-2 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
+            <div>
+                <div className=' xl:flex flex-row xl:justify-between'>
+                <h3 className='text-[20px] md:text-3xl text-[#061B31]  tracking-tighter '>Build a foundation for your startup that enables faster growth</h3>
+                 <p className=' text-[#50617A] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter xl:w-125 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
+            </div>
             </div>
 
              <div className=''>
@@ -101,11 +103,53 @@ const Build = () => {
 
 
 {/* Stripe Startups program */}
-            <div className=''>
-                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-2 rounded-md'>
-                <div>
-                    <h2> Stripe Startups program.
+            <div className='flex flex-col sm:flex-row gap-4'>
+                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md text-[16px] w-full '>
+                <div className=''>
+                    <h2 className=''> Stripe Startups program.
                         <span className='text-[#586880]'>Access financial benefits, a focused community, and experts resources to help you grow your business.</span></h2>
+                </div>
+
+
+                 <div className='font-semibold'>
+                        {/* Buttons */}
+                    <motion.button 
+                    onHoverStart={() => setHoveredIndex(2)}
+                    onHoverEnd={() => setHoveredIndex(null)}
+                    className=' w-full sm:w-auto flex text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>Apply now
+                    <AnimatePresence mode='wait'>
+                        {hoveredIndex === 2 ? (
+                            <motion.span
+                        key="icon2"
+                        initial={{ opacity: 0, x: -10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: 10 }}
+                        transition={{ duration: 0 }}
+                        >
+                            <BiRightArrowAlt className='w-4 h-7' />
+                        </motion.span>
+                        ) : (
+                            <motion.span
+                        key= "icon1"
+                        initial={{ opacity: 0, x: 10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: -10 }}
+                        transition={{ duration: 0 }}
+                        >
+                            <BiSolidChevronRight className='w-4 h-7' />
+                        </motion.span>
+                        )}
+                    </AnimatePresence>
+                    </motion.button>
+                        
+                </div>
+
+                {/* Second one */}
+            </div>
+                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md w-full text-[16px]'>
+                <div>
+                    <h2> Stripe Atlas.
+                        <span className='text-[#586880]'>Incorporate and get everything you need to fundraise,bank and accept payments in two business days.</span></h2>
                 </div>
 
 
@@ -114,7 +158,7 @@ const Build = () => {
                     <motion.button 
                     onHoverStart={() => setHoveredIndex(2)}
                     onHoverEnd={() => setHoveredIndex(null)}
-                    className=' w-full sm:w-auto flex text-[#533AFD] font-semibold hover:text-[#4032C8] rounded'>Apply now
+                    className=' w-full sm:w-auto flex text-[#533AFD] font-semibold hover:text-[#4032C8] rounded text-[16px]'>Start your company
                     <AnimatePresence mode='wait'>
                         {hoveredIndex === 2 ? (
                             <motion.span
