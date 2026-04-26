@@ -42,7 +42,7 @@ const Kurtis = () => {
 
     const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[5%] sm:px-4'>
+    <div className='w-full xl:px-[9%] sm:px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4 '>
             <div className='text-center flex flex-col items-center justify-center py-21'>
                 <img className='mb-4' src={img1} alt="" />

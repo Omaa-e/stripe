@@ -4,7 +4,7 @@ import img2 from '../assets/work.webp'
 
 const Book = () => {
   return (
-    <div className='w-full xl:px-[5%] px-4'>
+    <div className='w-full xl:px-[9%] px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className='text-[16px] sm:text-[22px] md:text-[28px] xl:text-[32px]'>
                 <h1 className='text-[#061B31] '>Book of the week</h1>
@@ -18,7 +18,7 @@ const Book = () => {
                 ' alt="" />
                 </div>
                 {/* Book details */}
-                <div className='bg-[#F8FAFD] pt-5 px-6 lg:pl-30 lg:pt-20'>
+                <div className='bg-[#F8FAFD] pt-5 px-6 lg:pl-30 lg:pt-20 xl:pl-33 rounded-lg h-full w-full lg:w-[70%]'>
                     <div>
                 
                     <h4 className='text-[20px] md:text-[22px] lg:text-[26px]'>Working: Researching,<br/> Interviewing, Writing</h4>
@@ -36,14 +36,19 @@ const Book = () => {
                         <div>
                             <p className='text-[12px] text-[#50617A]'> For more ideas on economic progress and technological <br/> advancement, see our in-house publications:</p>
 
-                            <div>
-                                <a href="" className='text-[#533AFD] text-[16px] font-semibold'>Stripe Press</a>
-                                <a href="" className='text-[#533AFD] text-[16px] font-semibold'>Works in Progress</a>
-                                <div>
-                                    <img src={img2} alt="" />
+                            <div className='flex gap-1'>
+                                <div className='border border-[#BAC8DA] rounded'>
+                                    <a href="" className='text-[#50617A] hover:text-[#533AFD] text-[14px] font-semibold'>Stripe Press</a>
+                                </div>
+                               
+                                <div className='flex border border-[#BAC8DA] rounded  '>
+                                    <img src={img2} className='' alt="" />
+                                        <a href="py-2" className='text-[#50617A] hover:text-[#533AFD] text-[14px] font-semibold'>Works in Progress</a>
                                 </div>
                             </div>
+                            
                         </div>
+                    
                
                 </div>
                

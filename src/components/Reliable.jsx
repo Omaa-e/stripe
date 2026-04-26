@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Reliable = () => {
     const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[5%] px-4 bg-[#0D1738] '>
+    <div className='w-full xl:px-[9%] px-4 bg-[#0D1738] '>
         <div className='sm:border-x sm:border-[#182659] sm:px-4 pt-13 lg:pt-20 h-screen '>
             <div className='pl-0 border-b border-[#182659] pb-9'>
                 <div className=''>

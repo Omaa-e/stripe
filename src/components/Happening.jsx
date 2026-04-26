@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Happening = () => {
     const [hovered, setHovered] = useState(null)
   return (
-    <div className='w-full xl:px-[5%] px-4'>
+    <div className='w-full xl:px-[9%] px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4 border-b border-gray-200 pt-15'>
             <div className='text-[22px] md:text-[28px] xl:text-[33px] leading-7'>
                 <h1>What's hapening</h1>

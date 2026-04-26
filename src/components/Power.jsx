@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Power = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <div className='w-full xl:px-[5%] sm:px-4 '>
+    <div className='w-full xl:px-[9%] sm:px-4 '>
         <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className=' border-b border-gray-200 py-10'>
                 <h1 className='text-2xl lg:text-3xl lg:w-[70%] '>Powering businesses of all sizes.

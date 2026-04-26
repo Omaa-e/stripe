@@ -8,7 +8,7 @@ import img from "../assets/Saas.png"
 const Saas = () => {
     const [hovered, setHovered]= useState(false)
   return (
-    <div className='w-full xl:px-[5%] sm:px-4'>
+    <div className='w-full xl:px-[9%] sm:px-4'>
         <div className='sm:border-x sm:border-gray-200 px-4'>
             <div className='py-15'>
                 <div className=' md:flex flex-row md:justify-between'>
