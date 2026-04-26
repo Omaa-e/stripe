@@ -19,7 +19,7 @@ const Power = () => {
                 <h2 className='text-2xl w-90 tracking-tighter'>
                     Transform your enterprise with agile fragile infrastructure
                 </h2>
-                <p className='text-[#586880] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter xl:w-125  '>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
+                <p className='text-[#586880] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter md:w-125  '>50% of fortune 100 companies have used stripe to grow their businesses from expanding internationally to reimagining the customer experience  </p>
             </div>
 
     <div className=''>

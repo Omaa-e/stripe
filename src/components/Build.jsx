@@ -14,9 +14,9 @@ const Build = () => {
     <div className=' w-full xl:px-[5%] sm:px-4 '>
         <div className='sm:border-x sm:border-gray-200 px-4 py-10 border-b border-gray-200'>
             <div>
-                <div className=' xl:flex flex-row xl:justify-between'>
+                <div className=' md:flex flex-row md:justify-between'>
                 <h3 className='text-[20px] md:text-3xl text-[#061B31]  tracking-tighter '>Build a foundation for your startup that enables faster growth</h3>
-                 <p className=' text-[#50617A] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter xl:w-125 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
+                 <p className=' text-[#50617A] pb-5 pt-2 md:pb-0 md:pt-0 text-xl tracking-tighter md:w-125 '>From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what's next on easy-to-integrate financial infrastructure.</p>
             </div>
             </div>
 
@@ -104,9 +104,9 @@ const Build = () => {
 
 {/* Stripe Startups program */}
             <div className='flex flex-col sm:flex-row gap-4'>
-                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md text-[16px] w-full '>
+                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md text-[16px] w-full pl-6 '>
                 <div className=''>
-                    <h2 className=''> Stripe Startups program.
+                    <h2 className='lg:w-[60%]'> Stripe Startups program.
                         <span className='text-[#586880]'>Access financial benefits, a focused community, and experts resources to help you grow your business.</span></h2>
                 </div>
 
@@ -146,9 +146,9 @@ const Build = () => {
 
                 {/* Second one */}
             </div>
-                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md w-full text-[16px]'>
+                 <div className='bg-[#F8FAFD] border border-gray-300 py-5 px-3 rounded-md w-full text-[16px] pl-6'>
                 <div>
-                    <h2> Stripe Atlas.
+                    <h2 className='lg:w-[62%]'> Stripe Atlas.
                         <span className='text-[#586880]'>Incorporate and get everything you need to fundraise,bank and accept payments in two business days.</span></h2>
                 </div>
 
@@ -156,11 +156,11 @@ const Build = () => {
                  <div className=''>
                         {/* Buttons */}
                     <motion.button 
-                    onHoverStart={() => setHoveredIndex(2)}
+                    onHoverStart={() => setHoveredIndex(3)}
                     onHoverEnd={() => setHoveredIndex(null)}
                     className=' w-full sm:w-auto flex text-[#533AFD] font-semibold hover:text-[#4032C8] rounded text-[16px]'>Start your company
                     <AnimatePresence mode='wait'>
-                        {hoveredIndex === 2 ? (
+                        {hoveredIndex === 3 ? (
                             <motion.span
                         key="icon2"
                         initial={{ opacity: 0, x: -10 }}
