@@ -14,6 +14,8 @@ import Kurtis from './components/Kurtis'
 import Reliable from './components/Reliable'
 import Happening from './components/Happening'
 import Book from './components/Book'
+import Ready from './components/Ready'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -33,7 +35,8 @@ const App = () => {
         <Reliable/>
         <Happening/>
         <Book/>
-      
+       <Ready/>
+       <Footer/>
       </div>
      
     </div>
